@@ -14,9 +14,11 @@ body {
 .address {
   font-style: normal;
 }
+/* index.html */
 
+/* HEADER */
 .logo {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
@@ -36,8 +38,8 @@ body {
   color: #212121;
 }
 
-.address-mail-link,
-.address-tel-link {
+.address-mail,
+.address-tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
@@ -49,11 +51,110 @@ body {
 .navigation-list-link:focus {
   color: #2196f3;
 }
-.address-mail-link:hover,
-.address-mail-link:focus {
+.address-mail:hover,
+.address-mail:focus {
   color: #2196f3;
 }
-.address-tel-link:hover,
-.address-tel-link:focus {
+.address-tel:hover,
+.address-tel:focus {
   color: #2196f3;
 }
+
+/* HERO */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+/* ADVANTAGES */
+.advantages-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.advantages-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* ABOUT US */
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/* OUR TEAM */
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* FOOTER */
+
+.logo-dark-theme {
+  color: #ffffff;
+}
+
+.footer-address-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-mail,
+.footer-tel {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* portfolio.html */
+
+/* GALERY */
