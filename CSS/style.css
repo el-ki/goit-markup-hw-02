@@ -158,3 +158,32 @@ body {
 /* portfolio.html */
 
 /* GALERY */
+.galery-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.galery-link:hover,
+.galery-link:focus {
+  color: #ffffff;
+  background: #2196f3;
+}
+
+.picture-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.picture-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
