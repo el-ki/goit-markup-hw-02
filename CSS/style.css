@@ -5,11 +5,14 @@
   --color-dark-theme: #ffffff;
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
+  --background-color: #2f303a;
+  --logo-color: #000000;
+  --footer-color: rgba(255, 255, 255, 0.6);
+  --team-background-color: #f5f4fa;
 }
 
 body {
   font-family: var(--main-font);
-  font-style: normal;
 }
 
 .list {
@@ -32,7 +35,7 @@ body {
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--logo-color);
 }
 
 .logo-color {
@@ -45,6 +48,10 @@ body {
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
+}
+
+.navigation-list .current {
+  color: var(--accent-color);
 }
 
 .address-mail,
@@ -70,6 +77,10 @@ body {
 }
 
 /* HERO */
+.hero {
+  background: var(--background-color);
+}
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -81,6 +92,7 @@ body {
 }
 
 .modal-btn {
+  font-style: normal;
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 16px;
@@ -90,6 +102,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--color-dark-theme);
+  background: var(--accent-color);
 }
 
 /* ADVANTAGES */
@@ -122,6 +135,9 @@ body {
 }
 
 /* OUR TEAM */
+.team {
+  background: var(--team-background-color);
+}
 .team-title {
   font-weight: 500;
   font-size: 16px;
@@ -141,6 +157,9 @@ body {
 }
 
 /* FOOTER */
+.footer {
+  background: var(--background-color);
+}
 
 .logo-dark-theme {
   color: var(--color-dark-theme);
@@ -162,13 +181,22 @@ body {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-color);
 }
 
+.footer-address-link:hover,
+.footer-address-link:focus,
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--accent-color);
+}
 /* portfolio.html */
 
 /* GALERY */
-.galery-link {
+.galery-button {
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
@@ -177,8 +205,8 @@ body {
   color: var(--secondary-color);
 }
 
-.galery-link:hover,
-.galery-link:focus {
+.galery-button:hover,
+.galery-button:focus {
   color: var(--color-dark-theme);
   background: var(--accent-color);
 }
